@@ -1,0 +1,274 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 36,
+        "name": "azzLogin to TestMeApp by entering valid information",
+        "description": "",
+        "id": "azzmy-registration-process-for-testmeapp;azzlogin-to-testmeapp-by-entering-valid-information;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 16599041100,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "azzLogin page is ready after successfull registration",
+            "match": {
+              "location": "StepdefsOfCS.azzlogin_page_is_ready_after_successfull_registration()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 132233300,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "azzEnter valid username \"lalitha\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"lalitha\"",
+                  "offset": 24
+                }
+              ],
+              "location": "StepdefsOfCS.azzenter_valid_username(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 147300200,
+              "status": "passed"
+            },
+            "line": 31,
+            "name": "azzenters valid password \"Password123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Password123\"",
+                  "offset": 25
+                }
+              ],
+              "location": "StepdefsOfCS.azzenters_valid_password(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 12479720200,
+              "status": "passed"
+            },
+            "line": 32,
+            "name": "azzclicks on Login",
+            "match": {
+              "location": "StepdefsOfCS.azzclicks_on_Login()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@UAT"
+          }
+        ]
+      },
+      {
+        "line": 39,
+        "name": "azzUser searches products using search functionality",
+        "description": "",
+        "id": "azzmy-registration-process-for-testmeapp;azzuser-searches-products-using-search-functionality",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 34455678100,
+              "status": "passed"
+            },
+            "line": 40,
+            "name": "azzThe user is logged in",
+            "match": {
+              "location": "StepdefsOfCS.azzthe_user_is_logged_in()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 95026500,
+              "status": "passed"
+            },
+            "line": 41,
+            "name": "azzenter partial data of product in searchfield",
+            "match": {
+              "location": "StepdefsOfCS.azzenter_partial_data_of_product_in_searchfield()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 3803195800,
+              "status": "passed"
+            },
+            "line": 42,
+            "name": "azzselects the product and clicks on find details",
+            "match": {
+              "location": "StepdefsOfCS.azzselects_the_product_and_clicks_on_find_details()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 522405200,
+              "status": "passed"
+            },
+            "line": 43,
+            "name": "azzProduct is added to the cart",
+            "match": {
+              "location": "StepdefsOfCS.azzproduct_is_added_to_the_cart()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 285288000,
+              "status": "passed"
+            },
+            "line": 44,
+            "name": "azzClicks on cart link to view items in cart",
+            "match": {
+              "location": "StepdefsOfCS.azzclicks_on_cart_link_to_view_items_in_cart()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1527190900,
+              "status": "passed"
+            },
+            "line": 45,
+            "name": "azzclicks on checkout and proceed to pay redirected to Payment page",
+            "match": {
+              "location": "StepdefsOfCS.azzclicks_on_checkout_and_proceed_to_pay_redirected_to_Payment_page()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 4535456000,
+              "status": "passed"
+            },
+            "line": 46,
+            "name": "azzSelects the bank and clicks on continue",
+            "match": {
+              "location": "StepdefsOfCS.azzselects_the_bank_and_clicks_on_continue()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 560564300,
+              "status": "passed"
+            },
+            "line": 47,
+            "name": "azzEnters valid bank credentials to login",
+            "match": {
+              "location": "StepdefsOfCS.azzenters_valid_bank_credentials_to_login()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1361303200,
+              "status": "passed"
+            },
+            "line": 48,
+            "name": "azzenters valid Transaction password and completes payment",
+            "match": {
+              "location": "StepdefsOfCS.azzenters_valid_Transaction_password_and_completes_payment()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@UAT"
+          }
+        ]
+      },
+      {
+        "line": 51,
+        "name": "azzThe one where the user moves to cart without adding add item in it",
+        "description": "",
+        "id": "azzmy-registration-process-for-testmeapp;azzthe-one-where-the-user-moves-to-cart-without-adding-add-item-in-it",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 28624096300,
+              "status": "passed"
+            },
+            "line": 52,
+            "name": "azzUser logins with valid credentials",
+            "match": {
+              "location": "StepdefsOfCS.azzuser_logins_with_valid_credentials()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3739444700,
+              "status": "passed"
+            },
+            "line": 53,
+            "name": "azzUser searches for a particular product like headphones",
+            "match": {
+              "location": "StepdefsOfCS.azzuser_searches_for_a_particular_product_like_headphones()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 185500,
+              "status": "passed"
+            },
+            "line": 54,
+            "name": "azztry to proceed to payment without adding any item in the cart",
+            "match": {
+              "location": "StepdefsOfCS.azztry_to_proceed_to_payment_without_adding_any_item_in_the_cart()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 281240600,
+              "status": "passed"
+            },
+            "line": 55,
+            "name": "azzTestMeApp doesn\u0027t display the cart icon",
+            "match": {
+              "location": "StepdefsOfCS.azztestmeapp_doesn_t_display_the_cart_icon()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@UAT"
+          }
+        ]
+      }
+    ],
+    "name": "azzMy registration process for TestMeApp",
+    "description": "",
+    "id": "azzmy-registration-process-for-testmeapp",
+    "keyword": "Feature",
+    "uri": "C:/Users/training_h2a.06.15/Desktop/Testing/Week 3/Selenium WorkSpace/CucumberCaseStudy1/MyCSFeatures/MyCSFeatures.feature",
+    "tags": []
+  }
+]
